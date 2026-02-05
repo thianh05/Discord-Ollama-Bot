@@ -19,23 +19,15 @@ Users must install and run Ollama themselves.
 Users must manually create a .env file in the project root.
 
 DISCORD_BOT_TOKEN=YOUR_TOKEN_DISCORD_HERE
+
 OLLAMA_URL=http://localhost:11434/api/chat
+
 OLLAMA_MODEL=gemma3:4b
 
 IMPORTANT:
 - Never share your Discord bot token
 - Do NOT commit the .env file to GitHub
 - Add .env to .gitignore
-
---------------------------------------------------
-
-## Project Structure
-.
-├── app.py
-├── bot.py
-├── requirements.txt
-├── .env
-└── README.md
 
 --------------------------------------------------
 
